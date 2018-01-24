@@ -82,7 +82,7 @@
 	}
 
 	.container {
-		width: 60em;
+		width: 55em;
 	}
 
 	@media screen and (max-width: 1680px) {
@@ -321,11 +321,11 @@
 	}
 
 	.row.\31 50\25 > * {
-		padding: 0 0 0 3em;
+		padding: 0 1em 0 1em;
 	}
 
 	.row.\31 50\25 {
-		margin: 0 0 -1px -3em;
+		margin: 0 0 -1px 0em;
 	}
 
 	.row.uniform.\31 50\25 > * {
@@ -2282,6 +2282,15 @@
 				text-transform: none !important;
 			}
 
+			.icon.major.skills:before {
+				-moz-osx-font-smoothing: grayscale;
+				-webkit-font-smoothing: antialiased;
+				font-family: Devicon;
+				font-style: normal;
+				font-weight: normal;
+				text-transform: none !important;
+			}
+
 			.icon.major:before {
 				font-size: 4em;
 				line-height: 1em;
@@ -2791,7 +2800,7 @@
 			}
 
 			.main.style2 .icon.major {
-				color: #ffffff;
+				/* color: #ffffff; */
 			}
 
 /* Header */
@@ -3418,4 +3427,9 @@
 				padding: 2em 1em 2em 1em ;
 			}
 
+	}
+
+
+	.name {
+		-webkit-animation: typing 1.5s steps(12, end);
 	}
