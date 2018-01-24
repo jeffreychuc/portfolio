@@ -106,7 +106,7 @@
 		}
 
 		.container {
-			width: 60em;
+			width: 55em;
 		}
 
 	}
@@ -2810,12 +2810,15 @@
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
+		/* background-image: url("images/sf-overlay.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2); */
+		background-image: url("images/sf-overlay.png");
 		background-position: top left,						center center,					center center;
-		background-size: auto,							cover,							cover;
+		background-size: cover,							cover,							cover;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
+		/* -webkit-text-stroke: 1px black; */
+		text-shadow: 1px 1px 2px black;
 	}
 
 		#header a {
@@ -3432,4 +3435,8 @@
 
 	.name {
 		-webkit-animation: typing 1.5s steps(12, end);
+	}
+
+	.spacer	{
+		padding-top: 2em;
 	}
