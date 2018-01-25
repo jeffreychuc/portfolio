@@ -3433,10 +3433,21 @@
 	}
 
 
-	.name {
-		-webkit-animation: typing 1.5s steps(12, end);
-	}
 
-	.spacer	{
-		padding-top: 2em;
-	}
+/* custom css */
+.name {
+	-webkit-animation: typing 1.5s steps(12, end);
+}
+
+.spacer	{
+	padding-top: 2em;
+}
+
+.profile_pic	{
+	height: 500px;
+	overflow: hidden;
+}
+
+.profile_pic img	{
+	margin: -80px 0 0 -30px;
+}
